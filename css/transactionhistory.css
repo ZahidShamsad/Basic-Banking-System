@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.headerlogo{
+    position: absolute;
+    top: 10px;
+} 
+.headerlogo a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    padding-left: 10px;
+}
+.headerlogo a:hover{
+    text-decoration: none;
+    color:yellow;
+}
+body{
+    background-image: url(../images/bankbackground.jpg);
+    background-attachment: fixed;
+;
+}
+.container h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.table.table-hover.table-striped.table-condensed.table-bordered
+{
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.textcenter{
+    color: white;
+}
+footer{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(20, 5, 107);
+    color: white;
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}

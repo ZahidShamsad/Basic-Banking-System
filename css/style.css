@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    color: white;
+}
+.headerlogo{
+    position: absolute;
+    top: 10px;
+} 
+.headerlogo a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    padding-left: 10px;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/bankbackground.jpg);
+}
+main{
+    position: relative;
+    height: 10px;
+}
+.text{
+    position: absolute;
+    color: white;
+    top:40px;
+    left: 440px;
+}
+.text h1{
+    font-size:40px;
+}
+.container{
+    width:1270px;
+    /* min-height: 500px;
+    background-color: red; */
+    margin: 90 auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    top:100px;
+  
+}
+.container .box{
+    position: relative;
+    width: 251px;
+    height: 251px;
+    background-color: aqua;
+    margin:50px;
+    /* box-sizing: border-box;
+    display: inline-block; */
+    overflow: hidden;
+   
+}
+button{
+    margin: 15px;
+    padding: 3px;
+    border:2px solid white;
+    color: white;
+    background-color:rgb(20, 5, 107);
+    font-family: serif;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+button:hover{
+    cursor: pointer;
+}
+.container .box .image{
+    position: relative;
+   
+    
+}
+.container .box .image img{
+    width: 100%;
+    height: 100%;
+    transition: 1.2s;
+}
+.container .box:hover .image img{
+    transform:scale(1.2);
+}
+.container .box .details{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    right:20px;
+    bottom: 10px;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    background: rgba(82, 79, 79, 0.8);
+    transform: scaleY(0);
+    transition: transform 0.5s;
+  
+ 
+}
+.container .box:hover .details{
+    transform: scaleY(1);
+    
+}
+.container .box .details .content{
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    
+    
+}
+.container .box .details .content h2{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: yellow;
+    text-shadow: 0 0 3px grey, 0 0 5px black
+    
+}
+.container .box .details .content p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-shadow: 0 0 3px grey, 0 0 5px black
+} 
+
+footer{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(20, 5, 107);
+    color: white;
+    position: absolute;
+    bottom: 0%;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}

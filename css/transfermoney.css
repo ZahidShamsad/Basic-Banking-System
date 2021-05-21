@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(../images/moneytransfer.jpg);
+    background-attachment: fixed;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    color: white;
+}
+.headerlogo{
+    position: absolute;
+    top: 10px;
+} 
+.headerlogo a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    padding-left: 10px;
+}
+.headerlogo a:hover{
+    text-decoration: none;
+    color:yellow;
+}
+.btn{
+    border:2px solid white;
+    color:white
+}
+.btn:hover{
+    color:yellow;
+}
+.table.table-hover.table-striped.table-condensed.table-bordered{
+    font-size: 15px;
+    background:rgba(0, 0, 0, 0.5);
+}
+.table.table-hover.table-striped.table-condensed.table-bordered td{
+    
+    font-weight: 600;
+    color:white
+    
+}
+footer{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(20, 5, 107);
+    color: white;
+    position: absolute;
+    top:800px;
+    bottom: 0%;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
